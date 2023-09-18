@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg py-3 bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fs-2 " href="#">Udemig</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav  ms-auto">
+                    <a class="nav-link " aria-current="page" href="#">Neler Öğreneceksiniz?</a>
+                    <a class="nav-link" href="#questions">Sorular</a>
+                    <a class="nav-link" href="#instructors">Eğitmenler</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+
+
+
+    <!-- show case  start-->
+
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container ">
+            <div class=" d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Bir <span class="text-warning">React Geliştiricisi</span> Olma!</h1>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestiae perspiciatis officia nobis.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. consectetur adipisicing elit.
+                        velit magni officiis iusto laudantium quod aspernatur
+                        accusamus!</p>
+                    <button class="btn btn-primary btn-lg mb-3 " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Kayıt
+                        Ol</button>
+                </div>
+                <img src="/img/ios.jpeg" class="img-fluid w-50 d-none d-sm-block" alt="react">
+            </div>
+        </div>
+    </section>
+    <!-- show case end -->
+
+    <!-- hızlı ulaşım -->
+
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div>
+                <h3 class="mb-3">Kayıt Ol</h3>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email giriniz.." required>
+                    <button class="btn btn-dark btn-lg">Gönder</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- eğitim tipleri start -->
+    <section p-5 id="eduType">
+        <div class="continer">
+            <div class="row text-center g-4 ">
+                <!-- ilk kart -->
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-pc-display-horizontal text-warning"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Sanal Eğitim</h3>
+                            <p class="card-title mb-3 lead">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Incidunt perspiciatis quos iusto, id minus vel.,</p>
+                            <a href="#" class="btn btn-primary">Daha Fazla Oku</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ikinci kart -->
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people-fill text-warning"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Çapraz Eğitim</h3>
+                            <p class="card-title mb-3 lead">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Incidunt perspiciatis quos iusto, id minus vel.,</p>
+                            <a href="#" class="btn btn-primary">Daha Fazla Oku</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- üçüncü kart -->
+                <div class="col-md ">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-fill   text-warning"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Birebir Eğitim</h3>
+                            <p class="card-title mb-3 lead">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Incidunt perspiciatis quos iusto, id minus vel.,</p>
+                            <a href="#" class="btn btn-primary">Daha Fazla Oku</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- eğitim tipleri end -->
+
+    <!--  öğrenme tipleri start -->
+
+
+    <section class="p-5">
+        <div class="container lead">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="/img/based.png" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Temelleri Ogren</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem repellat aliquam veniam vitae in
+                        animi, eligendi magnam dolorum quo ex eveniet similique commodi accusamus minus quas? Nisi quia
+                        dolores iusto.</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-compact-right"></i>Daha Fazla Oku...
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- öğrenme tipleri start -->
+
+
+    <!-- ikinci öğrenme kısmı start-->
+    <section class="p-5 bg-dark text-light">
+        <div class="container lead">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Temelleri Ogren</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem repellat aliquam veniam vitae in
+                        animi, eligendi magnam dolorum quo ex eveniet similique commodi accusamus minus quas? Nisi quia
+                        dolores iusto.</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-compact-right"></i>Daha Fazla Oku...
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="/img/react.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ikinci öğrenme kısmı end -->
+
+    <!-- sık sorulan sorular start -->
+    <section class="p-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">Sorulariniz?</h2>
+
+            <!--accordion-->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!--1. item-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Yogun Saatler
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+
+
+
+                <!-- sık sorulan sorular end -->
+                <!--2. item-->
+                <div class="accordion-item" id="sorular">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Ogrenim tipi
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <!--3. item-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Ogrenim Modeli
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+
+                <!--4. item-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Saatler
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+
+                <!--5. item-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Mezunlar?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Egitmenler-->
+    <section class="p-5 bg-primary" id="instructors">
+        <div class="container">
+            <h2 class="text-center text-white">Egitmenlerimiz</h2>
+            <p class="lead text-center text-white mb-5">
+                Egitmenlerimiz 10 yildan fazladir bu alanda calismaktadirlar
+            </p>
+
+            <div class="row g-4">
+                <!--1. Egitmen-->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="/img/person1.jpeg" alt="" class="img-fluid rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Marina Berg</h3>
+                            <p class="card-text lead">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-linkedin text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Egitmen 2-->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="/img/person2.jpg" alt="" class="img-fluid rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Tom Stanley</h3>
+                            <p class="card-text lead">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-linkedin text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Egitmen 3-->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="/img/person3.jpg" alt="" class="img-fluid rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Antony Quen</h3>
+                            <p class="card-text lead">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-linkedin text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Egitmen 4-->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="/img/person1.jpeg" alt="" class="img-fluid rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Khun Aguera</h3>
+                            <p class="card-text lead">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-linkedin text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Iletisim-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Iletisim Bilgileri
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Ana Konum: </span> Stockholm
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Kayit Numarasi : </span> 555 555 55 55
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Ogrenci Isleri: </span> 777 777 77 77
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Kayit Mail: </span> Stockholm@udemig.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Ogrenci Isleri: </span> ogrenci@udemig.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <!--   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.1666130843898!2d18.055620176663602!3d59.33017211095377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d607c0d4e79%3A0xaf45e010e373b0b8!2sStockholm%20City!5e0!3m2!1sen!2str!4v1694897106826!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    -->
+                    <div id="googleMap" class="bg-danger" style="width:100%;height:400px;"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--footer-->
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <div class="lead">Tun haklari &copy; saklidir | 2023 Udemig</div>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <!-- modal start -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Kayıt Ol</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead"> Formu doldurun tarafınıza dönüş sağlanacaktır.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">First Name:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-surname" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="recipient-surname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-mail" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="recipient-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-phone" class="col-form-label">Phone:</label>
+                            <input type="number" class="form-control" id="recipient-phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send
+                        message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--js-->
+<!-- AIzaSyCTplWrke_dwVyItVTQdHZqO9P9B6kvwxA -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTplWrke_dwVyItVTQdHZqO9P9B6kvwxA&callback=myMap" defer></script>
+
+<script>
+    function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(59.3301721,18.0556202),
+      zoom:10,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+
+ 
+ 
+</body>
+
+</html>
